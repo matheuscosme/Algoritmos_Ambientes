@@ -1,0 +1,17 @@
+<script>
+    let quantidade_termos = prompt('Quantos termos da sequencia de Fibonacci você deseja eaibir?')
+    let a = 0
+    let b = 1
+    let c = 0
+    for(let i = 0; i < quantidade_termos; i++){
+      if(i!=quantidade_termos-1){
+        document.write(a + " ");
+      }
+      else{
+        document.write(a)
+      }
+      c = a + b
+      a = b
+      b = c
+    }
+  </script>
