@@ -1,0 +1,11 @@
+<script>
+    let x = prompt('Digite o primeiro valor: ');
+    let y = prompt('Digite o segundo valor: ');
+
+    for(let i = x; i>0; i--){
+        if(x%i == 0 && y%i == 0){
+            document.write('O MDC entre o número ' + x + ' e o número ' + y + ' é ' + i);
+            break;
+        }
+    }
+</script>
